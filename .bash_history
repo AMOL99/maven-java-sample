@@ -68,3 +68,16 @@ ls -a
 git init
 git config user.name "AMOL99"
 GIT CONFIG USER.EMAIL "AMOLPATWARDHAN1999@GMAIL.COM"
+git config user.email "amolpatwardhan1999@gmail.com"
+ls -a
+ls
+ls -a
+git iniy
+git init
+git config user.name "amol99"
+git config user.email "amolpatwardhan1999@gmail.com"
+git add.
+git add .
+git commit -m "upload java maven code"
+git status
+git push

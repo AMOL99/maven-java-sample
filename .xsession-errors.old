@@ -35,43 +35,42 @@ dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/Di
 dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/snap/bin
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-Gtk-Message: 10:04:02.870: Failed to load module "atk-bridge"
+Gtk-Message: 11:06:24.976: Failed to load module "atk-bridge"
 
-(xfce4-session:1342): xfce4-session-WARNING **: 10:04:02.972: xfsm_manager_load_session: Something wrong with /home/rhyme/.cache/sessions/xfce4-session-ip-172-31-254-255:0, Does it exist? Permissions issue?
-** Message: 10:04:03.000: couldn't access control socket: /run/user/1001/keyring/control: No such file or directory
-Gtk-Message: 10:04:03.096: Failed to load module "atk-bridge"
-Gtk-Message: 10:04:03.179: Failed to load module "atk-bridge"
-Gtk-Message: 10:04:03.182: Failed to load module "atk-bridge"
+(xfce4-session:1324): xfce4-session-WARNING **: 11:06:25.142: xfsm_manager_load_session: Something wrong with /home/rhyme/.cache/sessions/xfce4-session-ip-172-31-254-255:0, Does it exist? Permissions issue?
+** Message: 11:06:25.167: couldn't access control socket: /run/user/1001/keyring/control: No such file or directory
+Gtk-Message: 11:06:25.209: Failed to load module "atk-bridge"
+Gtk-Message: 11:06:25.278: Failed to load module "atk-bridge"
+Gtk-Message: 11:06:25.304: Failed to load module "atk-bridge"
+Gtk-Message: 11:06:25.307: Failed to load module "atk-bridge"
 
-(xfce4-session:1342): xfce4-session-WARNING **: 10:04:03.220: Unable to launch "update-notifier" (specified by autostart/update-notifier.desktop): Failed to execute child process “update-notifier” (No such file or directory)
-Gtk-Message: 10:04:03.237: Failed to load module "atk-bridge"
-Gtk-Message: 10:04:03.265: Failed to load module "atk-bridge"
-Gtk-Message: 10:04:03.764: Failed to load module "atk-bridge"
-Gtk-Message: 10:04:04.244: Failed to load module "atk-bridge"
+(xfce4-session:1324): xfce4-session-WARNING **: 11:06:25.346: Unable to launch "update-notifier" (specified by autostart/update-notifier.desktop): Failed to execute child process “update-notifier” (No such file or directory)
+Gtk-Message: 11:06:25.370: Failed to load module "atk-bridge"
+Gtk-Message: 11:06:25.857: Failed to load module "atk-bridge"
+Gtk-Message: 11:06:26.195: Failed to load module "atk-bridge"
 
-(xfsettingsd:1432): xfsettingsd-WARNING **: 10:04:04.267: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+(xfwm4:1353): xfwm4-WARNING **: 11:06:26.293: Error opening /dev/dri/card0: No such file or directory
 
-(xfwm4:1387): xfwm4-WARNING **: 10:04:04.354: Error opening /dev/dri/card0: No such file or directory
+(xfwm4:1353): xfwm4-WARNING **: 11:06:26.589: output size (1024x768) and logical screen size (1280x1024) do not match
 
-(xfwm4:1387): xfwm4-WARNING **: 10:04:04.380: output size (1024x768) and logical screen size (1280x1024) do not match
+(polkit-gnome-authentication-agent-1:1391): GLib-CRITICAL **: 11:06:26.660: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-gnome-authentication-agent-1:1488): GLib-CRITICAL **: 10:04:04.506: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-gnome-authentication-agent-1:1391): polkit-gnome-1-WARNING **: 11:06:26.660: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-(polkit-gnome-authentication-agent-1:1488): polkit-gnome-1-WARNING **: 10:04:04.506: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(nm-applet:1370): Gtk-WARNING **: 11:06:26.948: Can't set a parent on widget which has a parent
 
-(nm-applet:1447): Gtk-WARNING **: 10:04:04.781: Can't set a parent on widget which has a parent
-
-(wrapper-2.0:1555): Gtk-WARNING **: 10:04:05.124: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1455): Gtk-WARNING **: 11:06:27.440: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
-(xfce4-terminal:1969): Gdk-CRITICAL **: 10:12:59.402: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+(xfce4-terminal:1915): Gdk-CRITICAL **: 11:17:37.485: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+Gtk-Message: 11:26:41.837: Failed to load module "atk-bridge"
+Gtk-Message: 11:26:48.133: Failed to load module "atk-bridge"
+Gtk-Message: 11:27:47.165: Failed to load module "atk-bridge"
 
-(xfwm4:1387): libxfce4ui-WARNING **: 10:22:31.299: ICE I/O Error
-
-(xfwm4:1387): libxfce4ui-WARNING **: 10:22:31.299: Disconnected from session manager.
+(xfce4-terminal:2639): Gdk-CRITICAL **: 11:39:14.995: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
 xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
 xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
