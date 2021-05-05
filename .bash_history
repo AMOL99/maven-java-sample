@@ -81,3 +81,18 @@ git add .
 git commit -m "upload java maven code"
 git status
 git push
+ls
+ls -a
+git init
+git config user.name "amol99"
+git config user.email "amolpatwardhan1999@gmail.com"
+git add .
+git commit -m "uploading java maven file"
+git status
+git remote add origin "https://github.com/amol99/maven-java-sample.git
+git remote add origin "https://github.com/amol99/maven-java-sample.git"
+q
+
+
+
+

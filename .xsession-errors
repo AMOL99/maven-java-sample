@@ -35,37 +35,39 @@ dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/Di
 dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/snap/bin
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
-Gtk-Message: 11:49:39.943: Failed to load module "atk-bridge"
+Gtk-Message: 04:17:20.829: Failed to load module "atk-bridge"
 
-(xfce4-session:1284): xfce4-session-WARNING **: 11:49:40.128: xfsm_manager_load_session: Something wrong with /home/rhyme/.cache/sessions/xfce4-session-ip-172-31-254-255:0, Does it exist? Permissions issue?
-** Message: 11:49:40.187: couldn't access control socket: /run/user/1001/keyring/control: No such file or directory
-Gtk-Message: 11:49:42.354: Failed to load module "atk-bridge"
-Gtk-Message: 11:49:42.373: Failed to load module "atk-bridge"
-Gtk-Message: 11:49:42.390: Failed to load module "atk-bridge"
-Gtk-Message: 11:49:42.425: Failed to load module "atk-bridge"
-Gtk-Message: 11:49:42.425: Failed to load module "atk-bridge"
+(xfce4-session:1394): xfce4-session-WARNING **: 04:17:20.939: xfsm_manager_load_session: Something wrong with /home/rhyme/.cache/sessions/xfce4-session-ip-172-31-254-255:0, Does it exist? Permissions issue?
+** Message: 04:17:20.976: couldn't access control socket: /run/user/1001/keyring/control: No such file or directory
+Gtk-Message: 04:17:23.088: Failed to load module "atk-bridge"
+Gtk-Message: 04:17:23.144: Failed to load module "atk-bridge"
+Gtk-Message: 04:17:23.166: Failed to load module "atk-bridge"
+Gtk-Message: 04:17:23.173: Failed to load module "atk-bridge"
 
-(xfce4-session:1284): xfce4-session-WARNING **: 11:49:42.458: Unable to launch "update-notifier" (specified by autostart/update-notifier.desktop): Failed to execute child process “update-notifier” (No such file or directory)
+(xfce4-session:1394): xfce4-session-WARNING **: 04:17:23.179: Unable to launch "update-notifier" (specified by autostart/update-notifier.desktop): Failed to execute child process “update-notifier” (No such file or directory)
+Gtk-Message: 04:17:23.224: Failed to load module "atk-bridge"
+Gtk-Message: 04:17:23.603: Failed to load module "atk-bridge"
+Gtk-Message: 04:17:23.742: Failed to load module "atk-bridge"
 
-(xfwm4:1391): xfwm4-WARNING **: 11:49:42.879: Error opening /dev/dri/card0: No such file or directory
-Gtk-Message: 11:49:42.898: Failed to load module "atk-bridge"
-dbus-daemon[1334]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1001 pid=1402 comm="nm-applet " label="unconfined")
-dbus-daemon[1334]: Successfully activated service 'org.a11y.atspi.Registry'
+(xfwm4:1569): xfwm4-WARNING **: 04:17:23.757: Error opening /dev/dri/card0: No such file or directory
+dbus-daemon[1432]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1001 pid=1580 comm="nm-applet " label="unconfined")
+dbus-daemon[1432]: Successfully activated service 'org.a11y.atspi.Registry'
 
-(xfwm4:1391): xfwm4-WARNING **: 11:49:43.092: output size (1024x768) and logical screen size (1280x1024) do not match
-Gtk-Message: 11:49:43.067: Failed to load module "atk-bridge"
+(xfwm4:1569): xfwm4-WARNING **: 04:17:23.919: output size (1024x768) and logical screen size (1280x1024) do not match
 
-(polkit-gnome-authentication-agent-1:1417): GLib-CRITICAL **: 11:49:43.185: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-gnome-authentication-agent-1:1593): GLib-CRITICAL **: 04:17:23.959: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-gnome-authentication-agent-1:1417): polkit-gnome-1-WARNING **: 11:49:43.186: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-gnome-authentication-agent-1:1593): polkit-gnome-1-WARNING **: 04:17:23.960: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-(nm-applet:1402): Gtk-WARNING **: 11:49:43.419: Can't set a parent on widget which has a parent
+(nm-applet:1580): Gtk-WARNING **: 04:17:24.250: Can't set a parent on widget which has a parent
 
-(nm-applet:1402): Gdk-CRITICAL **: 11:49:43.727: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
-
-(wrapper-2.0:1490): Gtk-WARNING **: 11:49:43.861: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1645): Gtk-WARNING **: 04:17:24.739: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
 ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+(xfwm4:1569): xfwm4-WARNING **: 04:20:42.947: output size (800x600) and logical screen size (1024x768) do not match
+[2555:2555:0505/042420.105350:ERROR:edid_parser.cc(102)] Too short EDID data: manufacturer id
+[2585:2585:0505/042420.547523:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
